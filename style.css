@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    
+}
+nav .head{
+    text-align: center;
+    padding: 7vw 0 0 0;
+}
+nav .head h1{
+    font-weight: bolder;
+    font-size: 3vw;
+
+}
+nav .head button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    width: fit-content;
+    margin: 50px;
+    cursor: pointer;
+}
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.containers .container{
+    width: fit-content;
+    text-align: center;
+    color: black;
+    width: 40vw;
+    background-color: #fff;
+    margin: 10px;
+    border: 3px solid rgb(217, 217, 217);
+    border-radius: 10px;
+
+
+}
+.containers .container .title{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 3px solid rgb(217, 217, 217);
+
+}
+.containers .container .image{
+    
+    width: 100%;
+    align-items: center;
+}
+.containers .container .image img{
+    width: 100%;
+    display: block;
+
+
+}
+.containers .container .author{
+    padding: 10px 0;
+    border-top: 3px solid rgb(217, 217, 217);;
+}
+
+@media screen and (max-width: 900px) {
+    .containers .container{
+        width: fit-content;
+    }
+    nav .head button{
+        width: fit-content;
+    }
+}
